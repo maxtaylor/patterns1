@@ -29,6 +29,7 @@
 .metadata
 *.iml
 *.ipr
+*.lst
 
 # MEDIA #
 ######################
