@@ -20,6 +20,54 @@
 *.tar
 *.zip
 
+# INTELLIJ #
+######################
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+
+# MEDIA #
+######################
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+*.psd
+
+# Video #
+*.wmv
+*.mpg
+*.mpeg
+*.mp4
+*.mov
+*.flv
+*.avi
+*.ogv
+*.ogg
+*.webm
+
+# Audio #
+*.wav
+*.mp3
+*.wma
+
+# Fonts #
+*.eot
+*.ttf
+*.woff
+
+# VIM #
+######################
+*.swp
+*.swo
+
 # Logs and databases #
 ######################
 *.log
