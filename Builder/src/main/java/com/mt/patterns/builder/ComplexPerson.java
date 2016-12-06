@@ -1,7 +1,7 @@
+package com.mt.patterns.builder;
 import com.google.common.base.MoreObjects;
-
 /**
- * Created by root on 05/12/16.
+ * Created by max on 05/12/16.
  * <p>
  * Example of the builder pattern if there are too many similar parameters and calling constructor is tricky.
  */

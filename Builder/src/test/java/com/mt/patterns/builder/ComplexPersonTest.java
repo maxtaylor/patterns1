@@ -1,3 +1,5 @@
+package com.mt.patterns.builder;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.junit.BeforeClass;
@@ -6,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by root on 05/12/16.
+ * Created by max on 05/12/16.
  */
 public class ComplexPersonTest {
 
