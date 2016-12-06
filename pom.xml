@@ -35,7 +35,6 @@
         <module>Null</module>
         <module>Strategy</module>
         <module>Template</module>
-        <module>Visitor</module>
         <module>MVC</module>
         <module>Delegate</module>
         <module>Composite-Entity</module>
@@ -44,6 +43,7 @@
         <module>Intercepting-Filter</module>
         <module>Service-Locator</module>
         <module>Transfer-Object</module>
+        <module>Visiter</module>
     </modules>
 
 

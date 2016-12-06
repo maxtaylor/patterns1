@@ -8,10 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <name>Visitor experimental</name>
+    <name>Visiter experimental</name>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>Visitor</artifactId>
-    <groupId>com.mt.patterns.visitor</groupId>
+    <artifactId>Visiter</artifactId>
+    <groupId>com.mt.patterns.visiter</groupId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 </project>
