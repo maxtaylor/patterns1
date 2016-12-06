@@ -8,10 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <name>Data-Access-Object experimental</name>
+    <name>Visitor experimental</name>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>Data-Access-Object</artifactId>
-    <groupId>com.mt.patterns.data.access.object</groupId>
+    <artifactId>Visitor</artifactId>
+    <groupId>com.mt.patterns.visitor</groupId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 </project>

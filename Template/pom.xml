@@ -7,9 +7,10 @@
         <groupId>com.mt</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <name>Template experimental</name>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>Template</artifactId>
-
-
+    <groupId>com.mt.patterns.template</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 </project>

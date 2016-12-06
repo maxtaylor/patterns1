@@ -9,8 +9,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <name>Singleton experimental</name>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>singleton</artifactId>
+    <artifactId>Singleton</artifactId>
+    <groupId>com.mt.patterns.singleton</groupId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
 </project>
