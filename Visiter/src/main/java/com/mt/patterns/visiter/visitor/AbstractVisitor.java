@@ -37,7 +37,7 @@ public abstract class AbstractVisitor implements TaxVisitor {
     public final BigDecimal visit(Product product) {
 
         final ProductType type = product.getType();
-        LOG.info(String.format("Applying [%s] to product [%s]", description, product));
+        LOG.info(String.format("Applying [%s] to product [%s]", description, product.getDescription()));
 
         switch (type) {
             case Alcohol:
