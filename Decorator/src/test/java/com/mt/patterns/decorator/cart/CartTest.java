@@ -1,6 +1,5 @@
 package com.mt.patterns.decorator.cart;
 
-import com.mt.patterns.decorator.chart.Cart;
 import com.mt.patterns.decorator.product.Product;
 import org.apache.log4j.BasicConfigurator;
 import org.junit.BeforeClass;

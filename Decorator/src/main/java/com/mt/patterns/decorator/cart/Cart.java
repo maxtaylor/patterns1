@@ -1,4 +1,4 @@
-package com.mt.patterns.decorator.chart;
+package com.mt.patterns.decorator.cart;
 
 import com.google.common.base.Preconditions;
 import com.mt.patterns.decorator.product.Category;

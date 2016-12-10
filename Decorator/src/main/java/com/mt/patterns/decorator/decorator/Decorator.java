@@ -1,6 +1,6 @@
 package com.mt.patterns.decorator.decorator;
 
-import com.mt.patterns.decorator.chart.Cart;
+import com.mt.patterns.decorator.cart.Cart;
 import com.mt.patterns.decorator.product.Category;
 import com.mt.patterns.decorator.product.Product;
 
