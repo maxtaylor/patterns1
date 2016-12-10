@@ -24,7 +24,7 @@ public interface Cart {
 
         @Override
         public double getTotalForCategory(Category category) {
-            Preconditions.checkNotNull(category, "Dont want no null category");
+            Preconditions.checkNotNull(category, "Don't want no null category");
             LOG.info("Computing total for category " + category);
             return products.stream()
                     .filter(p -> category.equals(p.getCategory()))
@@ -35,7 +35,7 @@ public interface Cart {
 
         @Override
         public void addProduct(Product product) {
-            Preconditions.checkNotNull(product, "Dont want no null products");
+            Preconditions.checkNotNull(product, "Don't want no null products");
             products.add(product);
         }
 

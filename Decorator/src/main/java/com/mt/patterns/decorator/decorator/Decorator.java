@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 /**
  * Created by max on 07/12/16.
+ * Allows for the dynamic wrapping of objects in order to modify their existing responsibilities and behaviours
  */
 public interface Decorator {
     Map<Category, Comparable> getTotalForCategory();
@@ -33,7 +34,8 @@ public interface Decorator {
                     .map(p -> new Product(p.name(), cart.getTotalForCategory(p) * GBP_FX_RATE, p))
                     .collect(Collectors.toMap(
                             p -> p.getCategory(),
-                            p -> p.getPrice()));
+                            p -> p.getPrice())
+                    );
         }
 
         @Override
@@ -59,7 +61,10 @@ public interface Decorator {
                     .sum();
 
             return Arrays.stream(Category.values())
-                    .collect(Collectors.toMap(c -> c, c -> comparableToDouble(mapOfPercentages.get(c)) / sum));
+                    .collect(Collectors.toMap(
+                            c -> c,
+                            c -> comparableToDouble(mapOfPercentages.get(c)) / sum)
+                    );
         }
 
         private Double comparableToDouble(Comparable comparable) {
@@ -86,7 +91,8 @@ public interface Decorator {
                     .stream()
                     .collect(Collectors.toMap(
                             e -> e.getKey(),
-                            e -> comparableToString(e.getValue())));
+                            e -> comparableToString(e.getValue()))
+                    );
         }
 
         private String comparableToString(Comparable comparable) {
